@@ -203,6 +203,14 @@ The integration tests cover:
 
 WebRTC offer, answer and ICE candidate information is exchanged through Socket.IO to establish peer-to-peer audio communication.
 
+
+## Problems Faced & Solutions
+
+- **WebRTC Connection:** Managed signaling and offer exchange using Socket.IO to establish peer-to-peer audio communication.
+- **Call Disconnections:** Implemented disconnect handling and resource cleanup to ensure calls end properly for both participants.
+- **Room & Role Management:** Added server-side validation to prevent duplicate Customer or Agent roles in a room.
+- **Real-Time Communication:** Used Socket.IO events to synchronize chat messages, participant status, and call events.
+
 ## Author
 
 **Parth Jagad**
